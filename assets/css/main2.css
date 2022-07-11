@@ -1,0 +1,98 @@
+/* COLORES 
+
+.dark-primary-color    { background: #0288D1; }
+.default-primary-color { background: #03A9F4; }
+.light-primary-color   { background: #B3E5FC; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #FFEB3B; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+ */
+	.red{font-family:"Comic Sans MS", cursive;
+	font-size:18px;
+	background-color:green;
+	height:50px;
+	width:150px;}
+	h1{
+	font-size:40px;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+	color: #212121;
+	text-decoration:underline;
+	
+	}
+	td{border:solid 2px;
+	border-color:#9b9b9b;
+	} 
+	h2{
+	border-bottom-style:solid;
+	border-width:2px;
+	border-color:red;
+	
+	}
+
+	.container{
+	background: #00467f; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #00467f, #a5cc82); /* Chrome 10-25, Safari 5.1-6 */
+	
+    background: linear-gradient(to right, #00467f, #a5cc82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, 	  Safari 7+ */
+	height:100vh;
+	width:100vw;
+	}
+	
+	
+	.content{
+	max-width:1000px;
+	max-height:500px;
+	width:100%;
+	height:100%;
+	background:white;
+	display:flex;
+	aligne-items:flex-end;
+	justify-content:center;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:1em 1em 1em 1em;
+	box-shadow:3px 3px 5px 10px #9B9B9B;
+			}
+		
+  @font-face {
+   font-family: 'Alkidenz';
+   font-style: normal;
+   font-weight: normal;
+  src: url(../Arima-Medium.ttf) format('truetype');
+  }
+  .fuente{
+   font-family: 'Alkidenz';
+   }
+   .table{
+	   width:100%;
+	   border-spacing:0;
+	   text-align:center;
+   }
+   .pagina{
+	   font-family:Tahoma, Geneva, sans-serif;
+	   
+	   height:500px;
+	   display:flex;
+	   align-items: flex-start;
+	   justify-content:flex-end;
+	   width:1000px;
+	  
+	  }
+	  .fa-star{
+		  color:#ffc400;
+	  }
+.holamundo{
+  position:absolute;
+  top:650px;
+  left:700px;
+  width:200px;
+  height:100px;
+ BACKGROUND:#FFF;
+  display:flex;
+  align-items:center;
+  justify-content:center
+}
